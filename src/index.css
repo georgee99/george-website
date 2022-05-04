@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.intro-container:hover {
+  animation: animate 0.5s;
+  cursor: pointer;
+}
+
+#sub-intro:hover {
+  animation: animateSubIntro 0.5s;
+  cursor: pointer;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes animateSubIntro {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.social-link {
+  color: white;
+}
+
+.social-link:hover {
+  animation: animate 0.5s;
+}
+
+#social-text {
+  transition: all .2s ease-in-out;
+}
+
+#social-text:hover {
+  transform: scale(1.2);
+}
+
+.skill-box {
+  transition: all .2s ease-in-out;
+}
+
+.skill-box:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.nervous-coder:hover {
+  cursor: pointer;
+}
+
+.view-projects-button {
+  transition: all .2s ease-in-out;
+}
+
+.view-projects-button:hover {
+  transform: scale(1.1);
+}
+
