@@ -28,7 +28,7 @@ export const projects = [
       description:
         "This is a simple project built using React. Uses an API to generate a random meme image, and allows the user to add their own text.",
       image: project3Image,
-      link: "https://jsbootcamp.com",
+      link: "https://github.com/georgee99/simple-meme-generator",
     },
     {
       title: "King Shark Chrome Extension",
