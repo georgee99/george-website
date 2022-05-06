@@ -4,15 +4,15 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -59,7 +59,7 @@ code {
 }
 
 #social-text {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 #social-text:hover {
@@ -67,7 +67,7 @@ code {
 }
 
 .skill-box {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .skill-box:hover {
@@ -75,15 +75,47 @@ code {
   transform: scale(1.05);
 }
 
-.nervous-coder:hover {
-  cursor: pointer;
-}
-
 .view-projects-button {
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .view-projects-button:hover {
   transform: scale(1.1);
 }
 
+.nervous-coder:hover {
+  cursor: pointer;
+}
+
+.nervous-coder {
+  animation: animateNervousCoder 800ms 500ms backwards;
+}
+
+@keyframes animateNervousCoder {
+  0% {
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.wave {
+  display: inline-block;
+  animation: animate-hand-wave 500ms 2s 5 ease-in-out;
+}
+
+@keyframes animate-hand-wave {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}

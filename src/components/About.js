@@ -12,7 +12,7 @@ export default function About() {
               id="intro"
               className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"
             >
-              Hi, I'm George.
+              Hi, I'm George.<span class="wave">👋</span>
               <br className="hidden lg:inline-block" />
               Welcome to my site.
             </h1>
