@@ -1,7 +1,8 @@
 import project1Image from "../../src/images/P9.PNG"
 import project2Image from "../../src/images/P1.png"
-import project3Image from "../../src/images/P7.png"
+// import project3Image from "../../src/images/P7.png"
 import project4Image from "../../src/images/P5.PNG"
+import project5Image from "../../src/images/P3.PNG"
 
 export const skills = ['Angular', 'React', 'JavaScript', 'TypeScript', 'HTML', 'CSS']
 
@@ -23,13 +24,20 @@ export const projects = [
       link: "https://github.com/georgee99/RWP-Contacts-Application",
     },
     {
-      title: "Meme Generator",
-      subtitle: "React",
-      description:
-        "This is a simple beginner project built using React. It uses a meme API to generate a random meme image, and allows the user to add their own text. ",
-      image: project3Image,
-      link: "https://github.com/georgee99/simple-meme-generator",
+      title: "Electricity Forecaster",
+      subtitle: "Python",
+      description: "This is a web application which forecasts the price and demand of electricity in Australia. It was built in Python using the Dash Framework by Plotly.",
+      image: project5Image,
+      link: "https://github.com/georgee99/Dash",
     },
+    // {
+    //   title: "Meme Generator",
+    //   subtitle: "React",
+    //   description:
+    //     "This is a simple beginner project built using React. It uses a meme API to generate a random meme image, and allows the user to add their own text. ",
+    //   image: project3Image,
+    //   link: "https://github.com/georgee99/simple-meme-generator",
+    // },
     {
       title: "King Shark Chrome Extension",
       subtitle: "JavaScript",
@@ -37,5 +45,5 @@ export const projects = [
         "This is a simple Chrome Extension which changes all images on a webpage to images of the DC Character 'King Shark'. It was built with only Vanilla JavaScript",
       image: project4Image,
       link: "https://github.com/georgee99/king-shark-chrome-extension",
-    },
+    }
   ];
