@@ -119,3 +119,8 @@ code {
     transform: rotate(0);
   }
 }
+
+.pacman-loader {
+  margin-top: 25%;
+  background-color: rgb(15 23 42);
+}
