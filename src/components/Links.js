@@ -11,9 +11,8 @@ export default function Links() {
       <div id="skills-thing" className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
           <h1 id="social-text" className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            My socials and resume &nbsp;
+            My socials and CV &nbsp;
             <EmojiHappyIcon className="mx-auto inline-block w-12 " />
-
           </h1>
         </div>
         <div className="flex justify-center">
@@ -44,7 +43,7 @@ export default function Links() {
           </a>
 
           {/* Download button */}
-          <a href={CV} download>
+          <a href={CV} download title="CV">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="object-contain h-24 w-48 social-link"
