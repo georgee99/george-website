@@ -4,7 +4,7 @@ import project2Image from "../../src/images/P1.png"
 import project4Image from "../../src/images/P5.PNG"
 import project5Image from "../../src/images/P3.PNG"
 
-export const skills = ['Angular', 'React', 'JavaScript', 'TypeScript', 'HTML', 'CSS']
+export const skills = ['Angular', 'React', 'JavaScript', 'TypeScript', 'Java', 'Spring']
 
 export const projects = [
     {
@@ -16,19 +16,19 @@ export const projects = [
       link: "https://github.com/georgee99/Angular-Movie-App",
     },
     {
+      title: "Electricity Forecaster",
+      subtitle: "Python",
+      description: "This is a web application which forecasts the price and demand of electricity in Australia. It was built in Python using the Dash Framework by Plotly.",
+      image: project5Image,
+      link: "https://github.com/georgee99/Dash",
+    },
+    {
       title: "My PhoneBook",
       subtitle: "React",
       description:
         "This application fetches users from the JSONPlaceHolders API, and renders them. The user can view items including name, phone number, and email.",
       image: project2Image,
       link: "https://github.com/georgee99/RWP-Contacts-Application",
-    },
-    {
-      title: "Electricity Forecaster",
-      subtitle: "Python",
-      description: "This is a web application which forecasts the price and demand of electricity in Australia. It was built in Python using the Dash Framework by Plotly.",
-      image: project5Image,
-      link: "https://github.com/georgee99/Dash",
     },
     // {
     //   title: "Meme Generator",

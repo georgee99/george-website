@@ -21,6 +21,10 @@ code {
   cursor: pointer;
 }
 
+#sub-intro {
+  line-height: 2rem;
+}
+
 #sub-intro:hover {
   animation: animateSubIntro 0.5s;
   cursor: pointer;
