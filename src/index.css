@@ -25,11 +25,6 @@ code {
   line-height: 2rem;
 }
 
-#sub-intro:hover {
-  animation: animateSubIntro 0.5s;
-  cursor: pointer;
-}
-
 @keyframes animate {
   0% {
     transform: translateY(0);

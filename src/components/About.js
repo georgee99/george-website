@@ -1,6 +1,5 @@
 import React from "react";
-import Coder from "../images/nervouscoderedit.png";
-import CoderCopy from "../images/copyOfNervousCoder.png";
+import { NervousCoder } from "./NervousCoder";
 
 export default function About() {
   return (
@@ -40,15 +39,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="nervous-coder object-cover object-center rounded"
-            alt="hero"
-            src={Coder}
-            onMouseOver={(e) => (e.currentTarget.src = CoderCopy)}
-            onMouseOut={(e) => (e.currentTarget.src = Coder)}
-          />
-        </div>
+        <NervousCoder/>
       </div>
     </section>
   );

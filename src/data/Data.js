@@ -1,10 +1,9 @@
-import project1Image from "../../src/images/P9.PNG"
-import project2Image from "../../src/images/P1.png"
-// import project3Image from "../../src/images/P7.png"
-import project4Image from "../../src/images/P5.PNG"
-import project5Image from "../../src/images/P3.PNG"
+import geekFlixImage from "../../src/images/P9.PNG"
+import kingSharkChromeExtensionImage from "../../src/images/P5.PNG"
+import electricityForecasterImage from "../../src/images/P3.PNG"
+import jumbleImage from "../../src/images/jumble-logo.jpeg";
 
-export const skills = ['Angular', 'React', 'JavaScript', 'TypeScript', 'Java', 'Spring']
+export const skills = ['Angular', 'React', 'JavaScript', 'TypeScript', 'Next', 'AWS', 'Java', 'Spring']
 
 export const projects = [
     {
@@ -12,38 +11,29 @@ export const projects = [
       subtitle: "Angular",
       description:
         "An application which fetches movies from TMDB API, and renders them paginated. Users can sort movies by emotion, or remove them from the collection.",
-      image: project1Image,
+      image: geekFlixImage,
       link: "https://github.com/georgee99/Angular-Movie-App",
     },
     {
       title: "Electricity Forecaster",
       subtitle: "Python",
       description: "This is a web application which forecasts the price and demand of electricity in Australia. It was built in Python using the Dash Framework by Plotly.",
-      image: project5Image,
+      image: electricityForecasterImage,
       link: "https://github.com/georgee99/Dash",
     },
     {
-      title: "My PhoneBook",
-      subtitle: "React",
-      description:
-        "This application fetches users from the JSONPlaceHolders API, and renders them. The user can view items including name, phone number, and email.",
-      image: project2Image,
-      link: "https://github.com/georgee99/RWP-Contacts-Application",
+      title: "Jumble",
+      subtitle: "Javascript, Express, AWS",
+      description: "Jumble is a backend application which transforms a string input according to pre-given instructions. It is a Dockerized Express app, hosted on Amazon ECS with EC2, and stores images in Amazon ECR.",
+      image: jumbleImage,
+      link: "https://github.com/georgee99/Jumble-App",
     },
-    // {
-    //   title: "Meme Generator",
-    //   subtitle: "React",
-    //   description:
-    //     "This is a simple beginner project built using React. It uses a meme API to generate a random meme image, and allows the user to add their own text. ",
-    //   image: project3Image,
-    //   link: "https://github.com/georgee99/simple-meme-generator",
-    // },
     {
       title: "King Shark Chrome Extension",
       subtitle: "JavaScript",
       description:
         "This is a simple Chrome Extension which changes all images on a webpage to images of the DC Character 'King Shark'. It was built with only Vanilla JavaScript",
-      image: project4Image,
+      image: kingSharkChromeExtensionImage,
       link: "https://github.com/georgee99/king-shark-chrome-extension",
     }
   ];
