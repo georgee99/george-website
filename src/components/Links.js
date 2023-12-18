@@ -7,10 +7,14 @@ import { EmojiHappyIcon } from "@heroicons/react/solid";
 
 export default function Links() {
   return (
+    // <section className="hidden sm:flex">
     <section>
       <div id="skills-thing" className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <h1 id="social-text" className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+          <h1
+            id="social-text"
+            className="sm:text-4xl text-3xl font-medium title-font text-white mb-4"
+          >
             My socials and CV &nbsp;
             <EmojiHappyIcon className="mx-auto inline-block w-12 " />
           </h1>
@@ -46,7 +50,7 @@ export default function Links() {
           <a href={CV} download title="CV">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="object-contain h-24 w-48 social-link"
+              className="object-contain h-24 w-32 social-link"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
