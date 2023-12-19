@@ -3,7 +3,7 @@ import kingSharkChromeExtensionImage from "../../src/images/P5.PNG"
 import electricityForecasterImage from "../../src/images/P3.PNG"
 import jumbleImage from "../../src/images/jumble-logo.jpeg";
 
-export const skills = ['Angular', 'React', 'JavaScript', 'TypeScript', 'Next', 'AWS', 'Java', 'Spring']
+export const skills = ['JavaScript', 'TypeScript', 'Angular', 'React', 'AWS', 'Java', 'Spring', 'Next']
 
 export const projects = [
     {
