@@ -23,9 +23,9 @@ export default function About() {
           </p>
           <div>
             <a
-              href="#projects"
+              href="#experience"
               onClick={(e) => {
-                let project = document.getElementById("projects");
+                let project = document.getElementById("experience");
                 e.preventDefault();
                 project &&
                   project.scrollIntoView({
@@ -35,7 +35,7 @@ export default function About() {
               }}
               className="view-projects-button inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-sky-500 rounded text-lg"
             >
-              See My Past Work
+              Experience
             </a>
           </div>
         </div>

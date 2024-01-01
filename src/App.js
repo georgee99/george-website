@@ -6,6 +6,7 @@ import Loading from "./components/Loading";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,6 +24,7 @@ export default function App() {
         <main className="text-gray-400 bg-gray-900 body-font">
           <Navbar />
           <About />
+          <Experience/>
           <Projects />
           <Skills />
           <Contact />

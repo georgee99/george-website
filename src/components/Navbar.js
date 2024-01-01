@@ -21,6 +21,18 @@ export default function Navbar() {
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-2 md:pl-4 md:border-l md:border-gray-600">
           <a
+            href="#experience"
+            onClick={(e) => {
+              let projects = document.getElementById("experience");
+              e.preventDefault();
+              projects &&
+                projects.scrollIntoView({ behavior: "smooth", block: "start" });
+            }}
+            className="mr-5 hover:text-white"
+          >
+            Experience
+          </a>
+          <a
             href="#projects"
             onClick={(e) => {
               let projects = document.getElementById("projects");
