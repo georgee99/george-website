@@ -123,3 +123,7 @@ code {
   margin-top: 25%;
   background-color: rgb(15 23 42);
 }
+
+#experience, #projects, #skills, #contact {
+  scroll-margin: 90px;
+}

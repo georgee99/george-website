@@ -19,7 +19,7 @@ export default function About() {
           <p id="sub-intro" className="mb-8 leading-relaxed">
             I'm a software engineer with over two years of professional experience. I have a strong passion for transforming ideas into functional and user-friendly solutions.
             Throughout my career, I've collaborated with cross-functional teams and gained valuable insights into the ever-evolving software industry. <br></br>
-            Here are some of the things I've done. 
+            Here is my experience so far. 
           </p>
           <div>
             <a
@@ -35,7 +35,7 @@ export default function About() {
               }}
               className="view-projects-button inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-sky-500 rounded text-lg"
             >
-              Experience
+              My Experience
             </a>
           </div>
         </div>
