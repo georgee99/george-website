@@ -1,4 +1,4 @@
-URL: https://georgeelz99.netlify.app/
+URL: https://georgeelz.dev
 
 # Getting Started with Create React App
 
