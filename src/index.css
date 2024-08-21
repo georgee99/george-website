@@ -70,7 +70,7 @@ code {
 }
 
 .skill-box:hover {
-  cursor: pointer;
+  cursor: default;
   transform: scale(1.05);
 }
 
@@ -124,6 +124,9 @@ code {
   background-color: rgb(15 23 42);
 }
 
-#experience, #projects, #skills, #contact {
+#experience,
+#projects,
+#skills,
+#contact {
   scroll-margin: 90px;
 }
