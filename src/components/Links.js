@@ -7,7 +7,6 @@ import { EmojiHappyIcon } from "@heroicons/react/solid";
 
 export default function Links() {
   return (
-    // <section className="hidden sm:flex">
     <section>
       <div id="skills-thing" className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">

@@ -17,9 +17,12 @@ export default function About() {
             </h1>
           </div>
           <p id="sub-intro" className="mb-8 leading-relaxed">
-            I'm a software engineer with over two years of professional experience. I have a strong passion for transforming ideas into functional and user-friendly solutions.
-            Throughout my career, I've collaborated with cross-functional teams and gained valuable insights into the ever-evolving software industry. <br></br>
-            Here is my experience so far. 
+            I'm a software engineer with over three years of professional
+            experience. I have a strong passion for transforming ideas into
+            functional and user-friendly solutions. Throughout my career, I've
+            collaborated with cross-functional teams and gained valuable
+            insights into the ever-evolving software industry. <br></br>
+            Here is my experience so far.
           </p>
           <div>
             <a
@@ -39,7 +42,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <NervousCoder/>
+        <NervousCoder />
       </div>
     </section>
   );

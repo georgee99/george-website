@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import { CodeIcon } from "@heroicons/react/solid";
-import { projects } from '../data/Data';
+import { projects } from "../data/Data";
 
 export default function Projects() {
   return (
@@ -20,9 +20,10 @@ export default function Projects() {
             <a
               href={project.link}
               target="_blank"
-              rel='noreferrer'
+              rel="noreferrer"
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-4"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
@@ -45,5 +46,5 @@ export default function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }
