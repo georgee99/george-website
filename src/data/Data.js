@@ -1,5 +1,5 @@
 import geekFlixImage from "../../src/images/P9.PNG";
-import kingSharkChromeExtensionImage from "../../src/images/P5.PNG";
+import jobTrackingAppImage from "../../src/images/P10.png";
 import electricityForecasterImage from "../../src/images/P3.PNG";
 import jumbleImage from "../../src/images/jumble-logo.jpeg";
 
@@ -18,12 +18,12 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Geek Flix Movie App",
-    subtitle: "Angular",
+    title: "Job Tracking App",
+    subtitle: "React, .NET, C#, TypeScript",
     description:
-      "Geek Flix is an application which fetches movies from TMDB API, and renders them paginated. Users can sort movies by emotion, or remove them from the collection.",
-    image: geekFlixImage,
-    link: "https://github.com/georgee99/Angular-Movie-App",
+      "A web application for tracking job applications, built with React (TypeScript) and .NET (C#). Users can manage company, position, and application status details.",
+    image: jobTrackingAppImage,
+    link: "https://github.com/georgee99/JobTrackingApp",
   },
   {
     title: "Electricity Forecaster",
@@ -42,12 +42,12 @@ export const projects = [
     link: "https://github.com/georgee99/Jumble-App",
   },
   {
-    title: "King Shark Chrome Extension",
-    subtitle: "JavaScript",
+    title: "Geek Flix Movie App",
+    subtitle: "Angular",
     description:
-      "This is a simple Chrome Extension which changes all images on a webpage to images of the DC Character 'King Shark' on the page load. It was built using only Vanilla JavaScript.",
-    image: kingSharkChromeExtensionImage,
-    link: "https://github.com/georgee99/king-shark-chrome-extension",
+      "Geek Flix is an application which fetches movies from TMDB API, and renders them paginated. Users can sort movies by emotion, or remove them from the collection.",
+    image: geekFlixImage,
+    link: "https://github.com/georgee99/Angular-Movie-App",
   },
 ];
 
