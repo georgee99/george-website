@@ -1,11 +1,11 @@
-import geekFlixImage from "../../src/images/P9.PNG";
-import jobTrackingAppImage from "../../src/images/P10.png";
-import electricityForecasterImage from "../../src/images/P3.PNG";
-import jumbleImage from "../../src/images/jumble-logo.jpeg";
+import geekFlixImage from "../../src/images/geekflix.PNG";
+import jobTrackingAppImage from "../../src/images/job-tracking-app.png";
+import electricityForecasterImage from "../../src/images/electricity-forecaster.PNG";
+import georgeBlog from "../../src/images/george-blog.png";
 
 export const skills = [
-  "JavaScript",
   "TypeScript",
+  ".NET Core",
   "React",
   "Angular",
   "AWS",
@@ -26,20 +26,20 @@ export const projects = [
     link: "https://github.com/georgee99/JobTrackingApp",
   },
   {
+    title: "Personal Blog",
+    subtitle: "Next.js, RDS, Lambda, API Gateway",
+    description:
+      "This is a personal blog site built with Next.js, using AWS RDS for database management, Lambda for serverless functions, and API Gateway for routing.",
+    image: georgeBlog,
+    link: "https://github.com/georgee99/george-blog",
+  },
+  {
     title: "Electricity Forecaster",
     subtitle: "Python",
     description:
       "This is a web application which forecasts the price and demand of electricity in Australia using machine learning. It was built in Python using the Dash Framework by Plotly.",
     image: electricityForecasterImage,
     link: "https://github.com/georgee99/Dash",
-  },
-  {
-    title: "Jumble",
-    subtitle: "Javascript, Express, AWS",
-    description:
-      "Jumble is a backend application which transforms a string input according to pre-given instructions. It is a Dockerized Express app, hosted on Amazon ECS with EC2, storing images in Amazon ECR.",
-    image: jumbleImage,
-    link: "https://github.com/georgee99/Jumble-App",
   },
   {
     title: "Geek Flix Movie App",

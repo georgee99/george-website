@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Coder from "../images/nervouscoderedit.png";
+import Coder from "../images/nervousCoder.png";
 import CoderCopy from "../images/copyOfNervousCoder.png";
 
 export const NervousCoder = () => {

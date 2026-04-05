@@ -21,7 +21,7 @@ export default function About() {
             experience. I have a strong passion for transforming ideas into
             functional and user-friendly solutions. Throughout my career, I've
             collaborated with cross-functional teams and gained valuable
-            insights into the ever-evolving software industry. <br></br>
+            insights into the evolving software industry. <br></br>
             Here is my experience so far.
           </p>
           <div>

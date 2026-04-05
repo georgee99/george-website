@@ -1,7 +1,6 @@
-import React from "react";
 import linkedInLogo from "../images/LinkedIn.png";
 import twitterLogo from "../images/Twitter-SVG.svg";
-import githubLogo from "../images/GitHub-Mark-Light-120px-plus.png";
+import githubLogo from "../images/github-logo.png";
 import CV from "../data/CV.pdf";
 import { EmojiHappyIcon } from "@heroicons/react/solid";
 
