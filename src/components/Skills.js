@@ -12,7 +12,7 @@ export default function Skills() {
             Technical Skills
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Some of the technical skills which I've picked up on during my career.
+            Some of the technical skills which I've picked up on during my career
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

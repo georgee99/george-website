@@ -1,4 +1,3 @@
-import React from "react";
 import { experienceData } from "../data/Data";
 import { OfficeBuildingIcon } from "@heroicons/react/solid";
 

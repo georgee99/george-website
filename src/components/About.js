@@ -17,30 +17,11 @@ export default function About() {
             </h1>
           </div>
           <p id="sub-intro" className="mb-8 leading-relaxed">
-            I'm a software engineer with over four years of professional
-            experience. I have a strong passion for transforming ideas into
-            functional and user-friendly solutions. Throughout my career, I've
-            collaborated with cross-functional teams and gained valuable
-            insights into the evolving software industry. <br></br>
-            Here is my experience so far.
+            I'm a software engineer with over four years of experience building scalable web applications and APIs. 
+            I enjoy turning ideas into practical, user-focused solutions, with a strong emphasis on performance, clarity, 
+            and maintainability. I've worked across the full stack and collaborated closely with cross-functional teams 
+            to deliver reliable software in fast-paced environments.<br></br>
           </p>
-          <div>
-            <a
-              href="#experience"
-              onClick={(e) => {
-                let project = document.getElementById("experience");
-                e.preventDefault();
-                project &&
-                  project.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start",
-                  });
-              }}
-              className="view-projects-button inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-sky-500 rounded text-lg"
-            >
-              My Experience
-            </a>
-          </div>
         </div>
         <NervousCoder />
       </div>

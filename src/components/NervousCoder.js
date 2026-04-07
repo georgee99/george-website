@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Coder from "../images/nervousCoder.png";
 import CoderCopy from "../images/copyOfNervousCoder.png";
 

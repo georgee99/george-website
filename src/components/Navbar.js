@@ -1,4 +1,3 @@
-import React from "react";
 import { ArrowRightIcon } from "@heroicons/react/solid";
 
 export default function Navbar() {
@@ -23,10 +22,10 @@ export default function Navbar() {
           <a
             href="#experience"
             onClick={(e) => {
-              let projects = document.getElementById("experience");
+              let experience = document.getElementById("experience");
               e.preventDefault();
-              projects &&
-                projects.scrollIntoView({ behavior: "smooth", block: "start" });
+              experience &&
+                experience.scrollIntoView({ behavior: "smooth", block: "start" });
             }}
             className="mr-5 hover:text-white"
           >

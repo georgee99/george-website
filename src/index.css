@@ -23,6 +23,7 @@ code {
 
 #sub-intro {
   line-height: 2rem;
+  font-size: 1.125rem;
 }
 
 @keyframes animate {
@@ -51,10 +52,13 @@ code {
 
 .social-link {
   color: white;
+  transition: transform 160ms ease-in-out;
 }
 
 .social-link:hover {
-  animation: animate 0.5s;
+  -webkit-transform: scale(1.06);
+  transform: scale(1.06);
+  cursor: pointer;
 }
 
 #social-text {

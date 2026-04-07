@@ -53,9 +53,9 @@ export const projects = [
 
 export const experienceData = [
   {
-    company: "Employsure",
+    company: "Peninsula Australia",
     description:
-      "Developing internal company software with a focus on web applications and automation. I leveraged AWS Cloud Services, including Lambda, S3, EC2, and DynamoDB, to streamline application development and deployment. Automated various tasks, such as user and client management, and implemented comprehensive unit and integration tests to ensure application stability and performance.",
+      "Developing internal company software with a focus on web applications and automation. I leveraged AWS Cloud Services, including Lambda, SQS, API Gateway, and DynamoDB, to streamline application development and deployment. Automated various tasks, such as user and client management, and implemented comprehensive unit and integration tests to ensure application stability and performance.",
     dates: "August 2023 - Present",
     jobTitle: "Software Engineer",
   },
@@ -70,9 +70,9 @@ export const experienceData = [
   {
     company: "SeaLadder",
     description:
-      "I contributed to the development of an online learning platform for Software Engineers, using Angular (TypeScript) and .NET (C#). I adopted a test-driven development approach and created unit tests with the Jasmine testing framework. I learned to debug using Chrome Developer Tools and became proficient with version control using Git.",
+      "I contributed to the development of an online learning platform for Software Engineers, using Angular (TypeScript) and .NET Core (C#). I adopted a test-driven development approach and created unit tests with the Jasmine testing framework. I learned to debug using Chrome Developer Tools and became proficient with version control.",
 
     dates: "October 2021 - July 2022",
-    jobTitle: "Front-End Web Developer",
+    jobTitle: "Full Stack Developer",
   },
 ];
