@@ -29,7 +29,7 @@ export const projects = [
     title: "Personal Blog",
     subtitle: "Next.js, DynamoDB, Lambda, API Gateway",
     description:
-      "This is a personal blog site built with Next.js, using DynamoDB for database management, Lambda for serverless functions, and API Gateway for routing.",
+      "This is a personal blog site built with Next.js, using DynamoDB for database management, Lambda for the serverless functions, and API Gateway for routing.",
     image: georgeBlog,
     link: "https://github.com/georgee99/george-blog",
   },
